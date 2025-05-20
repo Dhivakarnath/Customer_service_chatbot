@@ -16,7 +16,7 @@ GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 client = Groq(api_key=GROQ_API_KEY)
 
 # Constants
-GITHUB_REPO_URL = "https://raw.githubusercontent.com/SampleAIProjects/customer_service/main/Printrove"
+GITHUB_REPO_URL = "YOUR_GITHUB_REPO_LINK"
 FOLDER_NAMES = [
     "Accounts & Billing", "Design", "FAQs", "Getting Started",
     "Integrations", "Manage Orders", "Manage Shipping",
